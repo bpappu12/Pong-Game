@@ -45,7 +45,7 @@ class Ball {
         // Move the ball based upon the
         // horizontal (mXVelocity) and
         // vertical(mYVelocity) speed
-        // and the current frame rate(fps)
+        // and the current frame rate(mFPS)
 
         // Move the top left corner
         mRect.left = mRect.left + (mXVelocity / fps);
